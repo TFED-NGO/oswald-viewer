@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "evt-viewer-angular": {
+    "alcuin-viewer": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/evt-viewer-angular",
+            "outputPath": "dist/alcuin-viewer",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -131,13 +131,13 @@
           "options": {},
           "configurations": {
             "production": {
-              "browserTarget": "evt-viewer-angular:build:production"
+              "browserTarget": "alcuin-viewer:build:production"
             },
             "release": {
-              "browserTarget": "evt-viewer-angular:build:release"
+              "browserTarget": "alcuin-viewer:build:release"
             },
             "development": {
-              "browserTarget": "evt-viewer-angular:build:development"
+              "browserTarget": "alcuin-viewer:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -145,7 +145,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "evt-viewer-angular:build"
+            "browserTarget": "alcuin-viewer:build"
           }
         },
         "test": {
@@ -178,10 +178,10 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "evt-viewer-angular:serve:production"
+              "devServerTarget": "alcuin-viewer:serve:production"
             },
             "development": {
-              "devServerTarget": "evt-viewer-angular:serve:development"
+              "devServerTarget": "alcuin-viewer:serve:development"
             }
           },
           "defaultConfiguration": "development"
@@ -198,7 +198,7 @@
       }
     }
   },
-  "defaultProject": "evt-viewer-angular",
+  "defaultProject": "alcuin-viewer",
   "cli": {
     "analytics": "c373e515-eb44-4b1b-85c7-56dd668954af",
     "defaultCollection": "@angular-eslint/schematics"
