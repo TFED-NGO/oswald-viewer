@@ -1,7 +1,7 @@
 {
-	"editionTitle": "My Digital Edition",
+	"editionTitle": "TFED | Alcuin de Ratione, Published",
 	"badge": "alpha",
-	"editionHome": "evt.labcd.unipi.it/",
+	"editionHome": "tfed.ngo/",
 	"availableEditionLevels": [
 		{
 			"id": "diplomatic",
