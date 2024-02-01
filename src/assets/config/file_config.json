@@ -10,10 +10,10 @@
 			"enable": false
 		}
 	},
-	"imagesFolderUrl": "alcuin-viewer/assets/data/images/single",
+	"imagesFolderUrl": "assets/data/images/single",
 	"configurationUrls": {
-		"edition": "alcuin-viewer/assets/config/edition_config.json",
-		"ui": "alcuin-viewer/assets/config/ui_config.json",
-		"editorialConventions": "alcuin-viewer/assets/config/editorial_conventions_config.json"
+		"edition": "assets/config/edition_config.json",
+		"ui": "assets/config/ui_config.json",
+		"editorialConventions": "assets/config/editorial_conventions_config.json"
 	}
 }
