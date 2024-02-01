@@ -49,12 +49,12 @@
 		{
 			"code": "en",
 			"label": "languageEn",
-			"": true
+			"enable": true
 		},
 		{
 			"code": "it",
 			"label": "languageIt",
-			"enable": true
+			"enable": false
 		}
 	],
 	"enableNavBar": true,
